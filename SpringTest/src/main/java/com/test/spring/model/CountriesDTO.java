@@ -8,12 +8,13 @@ public class CountriesDTO {
 	public String countrycurrencyshortname;
 	public String countryemail;
 	public String countryflagurl;
-	
+	public String todayrate;
+
 	@Override
 	public String toString() {
 		return "CountriesDTO [countryid=" + countryid + ", countryname=" + countryname + ", countrycurrencyname="
 				+ countrycurrencyname + ", countrycurrencyshortname=" + countrycurrencyshortname + ", countryemail="
-				+ countryemail + ", countryflagurl=" + countryflagurl + "]";
+				+ countryemail + ", countryflagurl=" + countryflagurl + todayrate + "]";
 	}
 	
 	public int getCountryid() {
@@ -51,6 +52,14 @@ public class CountriesDTO {
 	}
 	public void setCountryflagurl(String countryflagurl) {
 		this.countryflagurl = countryflagurl;
+	}
+	
+	public String getTodayrate() {
+		return todayrate;
+	}
+
+	public void setTodayrate(String todayrate) {
+		this.todayrate = todayrate;
 	}
 	
 }

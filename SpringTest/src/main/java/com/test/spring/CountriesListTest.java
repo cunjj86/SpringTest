@@ -32,8 +32,7 @@ public class CountriesListTest {
 
 			for(CountriesDTO list : countryList) {
 
-				logger.info(list.countryname);
-				System.out.print(list.countryname);
+				System.out.println(list.countryname + ":" + list.countryflagurl);
 
 			}
 

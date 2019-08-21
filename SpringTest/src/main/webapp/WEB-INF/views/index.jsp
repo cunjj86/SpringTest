@@ -2,7 +2,7 @@
 <%@ page session="false" pageEncoding="utf-8" %>
 <html>
 <head>
-    <title>Helios by HTML5 UP</title>
+    <title>JRF Korea</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="resources/assets/css/main.css" />
@@ -61,19 +61,7 @@
                 </header>
             </div>
 
-            <div class="logo featured">
-                <a href="index.html"><img src="resources/images/mLogo.png" /></a>
-            </div>
-
-            <!-- Nav -->
-            <nav id="nav">
-                <ul style="color: #000000; font-weight: 600;">
-                    <li><a href="./aboutUs.do">About Us</a></li>
-                    <li><a href="#" class="scrolly">How it work</a></li>
-                    <li><a href="#" class="scrolly">Today Rate</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                </ul>
-            </nav>
+			<%@ include file="include/header.jsp" %>
 
         </div>
 
@@ -142,40 +130,7 @@
 
         </div>
 
-        <!-- Footer -->
-        <div id="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-
-                        <!-- Contact -->
-                        <section class="contact">
-                            <header>
-                                <h3>Customer Service Center</h3>
-                                <h2>+82-2-6927-3477</h2>
-                            </header>
-                            <p>Weekdays : 09:00 - 19:00</p>
-                            <p>Weekends / Holidays : 10:00 - 19:00</p>
-                            <p>
-                                <span style="margin-right: 10px"><strong>Location</strong> . Dongyoung bldg. 3F, 14-12, Teheran-ro 78 gil, Gangnam-gu, Seoul, Republic of Korea (06194)</span>
-                                <span style="margin-right: 10px"><strong>Fax</strong> . +82-2-6927-3488</span>
-                                <span><strong>Email</strong> . info@jpremit.com</span>
-                            </p>
-                        </section>
-
-
-
-                    </div>
-
-                </div>
-            </div>
-            <!-- Copyright -->
-            <div class="copyright" style="height: 50px; background-color: #cb1f1d; margin-top: 40px">
-                <ul class="menu">
-                    <li>&copy; JAPAN REMIT FINANCE CO., LTD. All Rights Reserved.</li>
-                </ul>
-            </div>
-        </div>
+        <%@ include file="include/footer.jsp" %>
 
     </div>
 

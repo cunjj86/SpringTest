@@ -19,5 +19,10 @@ public class CountriesDAOImpl implements CountriesDAO {
 	public List<CountriesDTO> getCountryList() throws Exception {
 		return sqlSession.selectList("countryMapper.getCountryList");
 	}
+	
+	@Override
+	public List<CountriesDTO> getTodayRateList() throws Exception {
+		return sqlSession.selectList("countryMapper.getTodayRateList");
+	}
 
 }

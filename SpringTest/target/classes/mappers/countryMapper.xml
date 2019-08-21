@@ -18,5 +18,11 @@
 			[REMIT_V1].[dbo].[R_Countries]
 
 	</select>
+	
+	<select id="getTodayRateList" statementType="CALLABLE" resultType="com.test.spring.model.CountriesDTO">
+		{
+		call [R_GETTODAYRATESDATA]
+		}
+	</select>	
 
 </mapper>
