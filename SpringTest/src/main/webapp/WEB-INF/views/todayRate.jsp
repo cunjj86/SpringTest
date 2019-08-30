@@ -15,7 +15,7 @@
         <div id="page-wrapper">
 
             <!-- Header -->
-            <div id="header">
+            <div id="header" style="height: 107.3333px;">
 
                 <%@ include file="include/header.jsp" %>
 
@@ -41,7 +41,7 @@
 	                            <tbody>
 	                            	<c:forEach items="${list}" var="list">
 		                            	<tr>
-		                            		<td><img src="resources/${list.countryflagurl}">${list.countryname}</td>
+		                            		<td><img src="resources/images/${list.countryname}_flag.png">${list.countryname}</td>
 		                            		<td>${list.countrycurrencyshortname}</td>
 		                            		<td><fmt:formatNumber value="${list.todayrate}" pattern="###,###,###.#######"/></td>
 		                            	</tr>

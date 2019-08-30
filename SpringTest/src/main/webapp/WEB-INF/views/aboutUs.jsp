@@ -14,7 +14,7 @@
         <div id="page-wrapper">
 
             <!-- Header -->
-            <div id="header">
+            <div id="header" style="height: 107.3333px;">
 
                 <%@ include file="include/header.jsp" %>
 
@@ -75,26 +75,6 @@
             <!-- Carousel -->
             <section class="carousel wrapper style1">
                 <div class="reel">
-
-                    <article>
-                        <a href="#" class="image featured"><img src="resources/images/pic01.jpg" alt="" /></a>
-                    </article>
-
-                    <article>
-                        <a href="#" class="image featured"><img src="resources/images/pic02.jpg" alt="" /></a>
-                    </article>
-
-                    <article>
-                        <a href="#" class="image featured"><img src="resources/images/pic03.jpg" alt="" /></a>
-                    </article>
-
-                    <article>
-                        <a href="#" class="image featured"><img src="resources/images/pic04.jpg" alt="" /></a>
-                    </article>
-
-                    <article>
-                        <a href="#" class="image featured"><img src="resources/images/pic05.jpg" alt="" /></a>
-                    </article>
 
                     <article>
                         <a href="#" class="image featured"><img src="resources/images/pic01.jpg" alt="" /></a>
