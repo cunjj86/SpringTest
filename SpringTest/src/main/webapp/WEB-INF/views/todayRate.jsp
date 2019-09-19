@@ -41,9 +41,9 @@
 	                            <tbody>
 	                            	<c:forEach items="${list}" var="list">
 		                            	<tr>
-		                            		<td><img src="resources/images/${list.countryname}_flag.png">${list.countryname}</td>
-		                            		<td>${list.countrycurrencyshortname}</td>
-		                            		<td><fmt:formatNumber value="${list.todayrate}" pattern="###,###,###.#######"/></td>
+		                            		<td><img src="resources/images/${list.receiveCountry}_flag.png">${list.receiveCountry}</td>
+		                            		<td>${list.receiveCType}</td>
+		                            		<td><fmt:formatNumber value="${list.customer_rate}" pattern="###,###,###.#######"/></td>
 		                            	</tr>
 	                            	</c:forEach>
 	                            </tbody>

@@ -44,38 +44,4 @@ public class HomeController {
 		return "index";
 	}
 	
-    @RequestMapping("/dbTest.do")
-    public String dbTest(Model model) {
-        Connection conn = null;
-        Statement st = null;
-        
-        try {
-            conn = dataSource.getConnection();
-            st = conn.createStatement();
-            ResultSet rs = st.executeQuery("select SYSDATETIME() as now;");
-            
-            while(rs.next()) {
-                model.addAttribute("serverTime", rs.getString("now"));
-            }
-            
-        } catch (Exception e) {
-            e.printStackTrace();    
-            
-        } finally {
-            try {
-                if(st != null) st.close();
-            } catch (SQLException e) {
-                e.printStackTrace();
-            }
-            
-            try {
-                if(conn != null) conn.close();
-            } catch (SQLException e) {
-                e.printStackTrace();
-            }                        
-        }
-        
-        return "home";
-    }
-	
 }

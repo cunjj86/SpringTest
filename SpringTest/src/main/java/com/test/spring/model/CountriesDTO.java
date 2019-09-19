@@ -2,64 +2,62 @@ package com.test.spring.model;
 
 public class CountriesDTO {
 	
-	public int countryid;
-	public String countryname;
-	public String countrycurrencyname;
-	public String countrycurrencyshortname;
-	public String countryemail;
-	public String countryflagurl;
-	public String todayrate;
-
+	public int currencyId;
+	public String exchangeRate;
+	public String dollarRate;
+	public int agentId;
+	public String receiveCountry;
+	public String receiveCType;
+	public String customer_rate;
+	
 	@Override
 	public String toString() {
-		return "CountriesDTO [countryid=" + countryid + ", countryname=" + countryname + ", countrycurrencyname="
-				+ countrycurrencyname + ", countrycurrencyshortname=" + countrycurrencyshortname + ", countryemail="
-				+ countryemail + ", countryflagurl=" + countryflagurl + todayrate + "]";
+		return "CountriesDTO [currencyId=" + currencyId + ", exchangeRate=" + exchangeRate + ", dollarRate="
+				+ dollarRate + ", agentId=" + agentId + ", receiveCountry=" + receiveCountry + ", receiveCType="
+				+ receiveCType + ", customer_rate=" + customer_rate + "]";
 	}
 	
-	public int getCountryid() {
-		return countryid;
+	public int getCurrencyId() {
+		return currencyId;
 	}
-	public void setCountryid(int countryid) {
-		this.countryid = countryid;
+	public void setCurrencyId(int currencyId) {
+		this.currencyId = currencyId;
 	}
-	public String getCountryname() {
-		return countryname;
+	public String getExchangeRate() {
+		return exchangeRate;
 	}
-	public void setCountryname(String countryname) {
-		this.countryname = countryname;
+	public void setExchangeRate(String exchangeRate) {
+		this.exchangeRate = exchangeRate;
 	}
-	public String getCountrycurrencyname() {
-		return countrycurrencyname;
+	public String getDollarRate() {
+		return dollarRate;
 	}
-	public void setCountrycurrencyname(String countrycurrencyname) {
-		this.countrycurrencyname = countrycurrencyname;
+	public void setDollarRate(String dollarRate) {
+		this.dollarRate = dollarRate;
 	}
-	public String getCountrycurrencyshortname() {
-		return countrycurrencyshortname;
+	public int getAgentId() {
+		return agentId;
 	}
-	public void setCountrycurrencyshortname(String countrycurrencyshortname) {
-		this.countrycurrencyshortname = countrycurrencyshortname;
+	public void setAgentId(int agentId) {
+		this.agentId = agentId;
 	}
-	public String getCountryemail() {
-		return countryemail;
+	public String getReceiveCountry() {
+		return receiveCountry;
 	}
-	public void setCountryemail(String countryemail) {
-		this.countryemail = countryemail;
+	public void setReceiveCountry(String receiveCountry) {
+		this.receiveCountry = receiveCountry;
 	}
-	public String getCountryflagurl() {
-		return countryflagurl;
+	public String getReceiveCType() {
+		return receiveCType;
 	}
-	public void setCountryflagurl(String countryflagurl) {
-		this.countryflagurl = countryflagurl;
+	public void setReceiveCType(String receiveCType) {
+		this.receiveCType = receiveCType;
 	}
-	
-	public String getTodayrate() {
-		return todayrate;
+	public String getCustomer_rate() {
+		return customer_rate;
+	}
+	public void setCustomer_rate(String customer_rate) {
+		this.customer_rate = customer_rate;
 	}
 
-	public void setTodayrate(String todayrate) {
-		this.todayrate = todayrate;
-	}
-	
 }
