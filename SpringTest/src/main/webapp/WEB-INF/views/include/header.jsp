@@ -1,8 +1,8 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ page session="false" pageEncoding="utf-8" %>
 
-<div class="logo featured">
-    <a href="./index.do"><img src="resources/images/mLogo.png" /></a>
+<div class="logo image">
+    <a href="./index.do"><img src="resources/images/mLogo.png" style="display: block; margin: 0px auto; width: 60%;"/></a>
 </div>
 
 <!-- Nav -->

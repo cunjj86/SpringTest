@@ -50,11 +50,11 @@
         <div id="header">
 
             <!-- Inner -->
-            <div class="inner" style="right: 350px;">
+            <div class="inner" style="margin-right: 600px;">
                 <header>
                     <p>Send Your Money Around</p>
                     <p>The Globe With JRF</p>
-                    <h1><a href="index.html" id="logo">JRF Korea</a></h1>
+                    <h1>JRF Korea</h1>
                     <hr />
                     <p>The quick and easy way to send money</p>
                     <p>No matter how far you are.</p>
