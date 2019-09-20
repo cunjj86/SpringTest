@@ -88,11 +88,11 @@
 }
 .slick-prev:before
 {
-    content: '←';
+    background-image: url( "images/bg-house.png" );
 }
 [dir='rtl'] .slick-prev:before
 {
-    content: '→';
+    background-image: url( "images/bg-house.png" );
 }
 
 .slick-next
@@ -106,11 +106,11 @@
 }
 .slick-next:before
 {
-    content: '→';
+    background-image: url( "images/bg-house.png" );
 }
 [dir='rtl'] .slick-next:before
 {
-    content: '←';
+    background-image: url( "images/bg-house.png" );
 }
 
 /* Dots */
