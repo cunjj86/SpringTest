@@ -9,6 +9,8 @@
     <link rel="stylesheet" type="text/css" href="resources/assets/slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="resources/assets/slick/slick-theme.css" />
     <link rel="stylesheet" href="resources/assets/css/noscript.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="resources/assets/css/inputstyle.css">
     <style type="text/css">
         .slider {
             width: 50%;
@@ -50,7 +52,7 @@
         <div id="header">
 
             <!-- Inner -->
-            <div class="inner" style="margin-right: 600px;">
+            <div class="inner" style="margin-right: 200px;">
                 <header>
                     <p>Send Your Money Around</p>
                     <p>The Globe With JRF</p>
@@ -60,6 +62,19 @@
                     <p>No matter how far you are.</p>
                 </header>
             </div>
+            
+			<!-- <div class="inner container">
+				<div class="container__item">
+					<form class="form">
+						<input type="email" class="form__field" placeholder="Your E-Mail Address" />
+						<button type="button" class="btn btn--primary btn--inside uppercase">Send</button>
+					</form>
+				</div>
+				
+				<div class="container__item container__item--bottom">
+					<p>Inspired by <a href="//dribbble.com/shots/2989456-Email-input-field" target="_blank">Daniel Luca</a>.</p>
+				</div>
+			</div> -->
 
 			<%@ include file="include/header.jsp" %>
 

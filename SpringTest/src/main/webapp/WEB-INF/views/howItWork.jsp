@@ -54,13 +54,13 @@
             </div>
 
             <!-- Main -->
-            <div class="wrapper style2">
+            <div class="wrapper style2" style="padding-bottom:0px;">
                 <div class="container">
                     <article id="main" class="special">
                         <header>
                             <h2>How It Work</h2>
                             <p>
-                                We provide remittance services to many countries around the world through our leading multinational remittance partners.
+                                If you want to send money overseas faster and easier, JRF!
                             </p>
                         </header>
                         <section>
@@ -70,8 +70,9 @@
 										<h2>1. OPEN ACCOUNT</h2>
 									</header>
 									<p>Open an account and become a member of Japan Remittance Finance</p>
+									<p>Simply register your regular deposit account (with deposit and withdrawal available).</p>
 								</div>
-								<span class="blockimage"><img src="resources/images/pic01.jpg" alt="" /></span>
+								<span class="blockimage"><img src="resources/images/openAcc.jpg" alt="" /></span>
 							</div>
 						</section>
                         <section>
@@ -81,8 +82,12 @@
 										<h2>2. CREATE REMITTANCE REQUEST</h2>
 									</header>
 									<p>Documents Required</p>
+									<p>Please visit the branch and submit the required documents.</p>
+									<p>1) Residence Card</p>
+									<p>2) Driving Lic. or Passport 1st and Address pages</p>
+									<p>3) Alien Registration Card</p>
 								</div>
-								<span class="blockimage"><img src="resources/images/pic01.jpg" alt="" /></span>
+								<span class="blockimage"><img src="resources/images/createReq.jpg" alt="" /></span>
 							</div>
                         </section>
                         <section>
@@ -91,9 +96,9 @@
 									<header class="major">
 										<h2>3. DEPOSIT THE AMOUNT</h2>
 									</header>
-									<p>Now you just need to deposit amount by JRF remit card or JRF office counter or deposit in JRF's different bank accounts</p>
+									<p>Now you just need to deposit amount by JRF office counter or deposit in JRF's different bank accounts</p>
 								</div>
-								<span class="blockimage"><img src="resources/images/pic01.jpg" alt="" /></span>
+								<span class="blockimage"><img src="resources/images/depositAmo.jpg" alt="" /></span>
 							</div>
                         </section>
                     </article>
@@ -107,7 +112,7 @@
                 <h2>Partners</h2>
             </header>
 
-            <div class="partnerimg slider image featured" style="height: 100px;">
+            <div class="partnerimg slider image featured" style="height: 200px;">
                 <div><img src="resources/images/img1.png" /></div>
                 <div><img src="resources/images/img2.png" /></div>
                 <div><img src="resources/images/img3.png" /></div>
