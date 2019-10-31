@@ -6,18 +6,6 @@
   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper namespace="countryMapper">
-
-	<select id="getCountryList" resultType="com.test.spring.model.CountriesDTO">
-
-		SELECT
-
-			[CountryID], [CountryName], [CountryCurrencyName], [CountryCurrencyShortName], [CountryEmail], [CountryFlagUrl]
-
-		FROM
-
-			[JRf_Korea_Uat].[dbo].[R_Countries]
-
-	</select>
 	
 	<select id="getTodayRateList" resultType="com.test.spring.model.CountriesDTO">
 		SELECT 

@@ -72,7 +72,7 @@
 									<p>Open an account and become a member of Japan Remittance Finance</p>
 									<p>Simply register your regular deposit account (with deposit and withdrawal available).</p>
 								</div>
-								<span class="blockimage"><img src="resources/images/openAcc.jpg" alt="" /></span>
+								<span class="blockimage"><img src="resources/images/openAcc.png" alt="" /></span>
 							</div>
 						</section>
                         <section>
@@ -87,7 +87,7 @@
 									<p>2) Driving Lic. or Passport 1st and Address pages</p>
 									<p>3) Alien Registration Card</p>
 								</div>
-								<span class="blockimage"><img src="resources/images/createReq.jpg" alt="" /></span>
+								<span class="blockimage"><img src="resources/images/createReq.png" alt="" /></span>
 							</div>
                         </section>
                         <section>
@@ -98,7 +98,7 @@
 									</header>
 									<p>Now you just need to deposit amount by JRF office counter or deposit in JRF's different bank accounts</p>
 								</div>
-								<span class="blockimage"><img src="resources/images/depositAmo.jpg" alt="" /></span>
+								<span class="blockimage"><img src="resources/images/depositAmo.png" alt="" /></span>
 							</div>
                         </section>
                     </article>

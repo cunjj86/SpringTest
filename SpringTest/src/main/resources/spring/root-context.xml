@@ -21,7 +21,7 @@
 		<property name="password" value="jrfkorea#123" />
 
 	</bean>
-
+   
 	<!-- value는 값을 지정 ref는 이미 지정한 값을 가져오는 것 -->
 
 	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
