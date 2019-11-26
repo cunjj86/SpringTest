@@ -9,6 +9,7 @@
         <link rel="stylesheet" type="text/css" href="resources/assets/slick/slick.css"/>
         <link rel="stylesheet" type="text/css" href="resources/assets/slick/slick-theme.css"/>
 		<link rel="stylesheet" href="resources/assets/css/noscript.css" />
+		<link href="https://fonts.googleapis.com/css?family=Adamina|Fascinate+Inline|Paytone+One|Staatliches|Yanone+Kaffeesatz&display=swap" rel="stylesheet">		
 		<style type="text/css">
         .slider {
             width: 50%;
@@ -40,6 +41,13 @@
 
         .slick-current {
             opacity: 1;
+        }
+        #main{
+        font-family: 'Paytone One', sans-serif;
+		font-family: 'Staatliches', cursive;
+		font-family: 'Yanone Kaffeesatz', sans-serif;
+		font-family: 'Fascinate Inline', cursive;
+		font-family: 'Adamina', serif;
         }
 		</style>
 	</head>
@@ -112,7 +120,7 @@
                 <h2>Partners</h2>
             </header>
 
-            <div class="partnerimg slider image featured" style="height: 200px;">
+            <div class="partnerimg slider image featured" style="height: 100px;">
                 <div><img src="resources/images/img1.png" /></div>
                 <div><img src="resources/images/img2.png" /></div>
                 <div><img src="resources/images/img3.png" /></div>

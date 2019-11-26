@@ -9,6 +9,7 @@
         <link rel="stylesheet" type="text/css" href="resources/assets/slick/slick.css"/>
         <link rel="stylesheet" type="text/css" href="resources/assets/slick/slick-theme.css"/>
 		<link rel="stylesheet" href="resources/assets/css/noscript.css" />
+		<link href="https://fonts.googleapis.com/css?family=Adamina|Fascinate+Inline|Paytone+One|Staatliches|Yanone+Kaffeesatz&display=swap" rel="stylesheet">		
 		<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 		<script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyBHk9HHsL64-VGZ313wH4Xu2jfsEUQ2Pbg" ></script>
 		<script>
@@ -35,10 +36,15 @@
 				'display:';
 				width: 100%;
 				height: 100px;
+				font-family: 'Paytone One', sans-serif;
+				font-family: 'Staatliches', cursive;
+				font-family: 'Yanone Kaffeesatz', sans-serif;
+				font-family: 'Fascinate Inline', cursive;
+				font-family: 'Adamina', serif;				
 			}
 			td {
 				padding: 40px;
-				border: 1px  #444444;
+				border: 1px  #444444;				
 			}
 
 			.jb-th-1 {
@@ -53,6 +59,7 @@
 		</style>		
 		<style>
 		#map_ma {width:100%; height:600px; clear:both; border:solid 1px red;}
+		#map_ma2 {width:100%; height:600px; clear:both;}
 		</style>
 		
 			<script type="text/javascript">
@@ -90,7 +97,10 @@
 				infowindow.open(map, marker);
 			//});
 			});
-			</script> 					
+			</script>
+	  <script language="javascript">
+	  function showPopup() { window.open("${pageContext.request.contextPath}/mailinquiry.do", "a", "width=400, height=400, left=100, top=50"); }
+	  </script>
 	</head>
 	<body class="no-sidebar is-preload">
         <div id="page-wrapper">
@@ -115,7 +125,7 @@
 					<table class="contattable">
 						<tr>
 							<td class="jb-th-1" rowspan="4">
-								<font size="15" color="white" algin="center">Contact Us
+								<font size="12" color="white" algin="center">Contact&nbspUs
 								</font>
 							</td>
 							<td class="trcolors" ><b>Opening Hours(Everyday)</b><br>
@@ -128,12 +138,15 @@
 						</tr>
 						<tr class="trcolors">
 							<td><b>Customer Service Center</b><br>
-								<b>1670 - 4565</b>
+								<b>+82-2-6927-3477</b>
 							</td>
 						</tr>
 						<tr class="trcolors">
 							<td><b>Email US</b><br>
 								<b>dongki@jpremit.com</b>
+								<br><br>
+								<b><a onclick="showPopup();" />inquiry</a></b> ← Click if you have any questions
+								
 							</td>
 						</tr>					
 					</table>
@@ -147,7 +160,10 @@
 						</section>			
 									<center>
 						<section>
-									<div id="map_ma"></div>
+<!--  									<div id="map_ma"></div>-->
+<div id="map_ma2">
+                            <img src="resources/images/jrfkoreamap.jpg" wdith="100%" >
+</div>
 									        <b>Head Office & Customer Service Center</b><br>
 									        14-12, Teheran-ro 78-gil, Gangnam-gu, Seoul, Republic of Korea
 									</center>                

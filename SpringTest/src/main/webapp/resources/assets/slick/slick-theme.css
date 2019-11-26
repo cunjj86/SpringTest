@@ -88,11 +88,11 @@
 }
 .slick-prev:before
 {
-    content: ">";
+    content: url(../../images/eee02.png);
 }
 [dir='rtl'] .slick-prev:before
 {
-    content: "<";
+    content: url(../../images/eee01.png);
 }
 
 .slick-next
@@ -106,17 +106,17 @@
 }
 .slick-next:before
 {
-    content: "<";
+    content: url(../../images/eee01.png);
 }
 [dir='rtl'] .slick-next:before
 {
-    content: ">";
+    content: url(../../images/eee02.png);
 }
 
 /* Dots */
 .slick-dotted.slick-slider
 {
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 
 .slick-dots

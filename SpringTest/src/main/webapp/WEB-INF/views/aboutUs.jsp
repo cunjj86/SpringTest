@@ -9,6 +9,18 @@
         <link rel="stylesheet" type="text/css" href="resources/assets/slick/slick.css"/>
         <link rel="stylesheet" type="text/css" href="resources/assets/slick/slick-theme.css"/>
 		<link rel="stylesheet" href="resources/assets/css/noscript.css" />
+		<link href="https://fonts.googleapis.com/css?family=Adamina|Bad+Script|Fascinate+Inline|Paytone+One|Staatliches|Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+
+		<style>
+      #main {
+			font-family: 'Paytone One', sans-serif;
+			font-family: 'Staatliches', cursive;
+			font-family: 'Yanone Kaffeesatz', sans-serif;
+			font-family: 'Fascinate Inline', cursive;
+			font-family: 'Adamina', serif;
+			font-family: 'Bad Script', cursive;
+      }		
+		</style>		
 	</head>
 	<body class="no-sidebar is-preload">
         <div id="page-wrapper">
